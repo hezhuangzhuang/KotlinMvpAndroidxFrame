@@ -26,7 +26,6 @@ class App : BaseApp() {
     override fun onCreate() {
         super.onCreate()
 
-
         //腾讯bug线上搜集工具
         CrashReport.initCrashReport(applicationContext, "9455fd103f", false)
 
